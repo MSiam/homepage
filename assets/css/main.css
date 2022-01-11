@@ -4846,9 +4846,9 @@ a img {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
-    vertical-align: bottom;
+    vertical-align: top;
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed
@@ -4866,7 +4866,7 @@ a img {
     position: absolute;
     font-family: 'Rubik', sans-serif;
     width: 80%;
-    top: 50%;
+    top: 20%;
     left: 50%;
     margin: 0 auto;
     -webkit-transform: translate(-50%, -50%);
