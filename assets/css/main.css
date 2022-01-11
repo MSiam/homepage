@@ -4848,7 +4848,7 @@ a img {
     display: flex;
     vertical-align: top;
     width: 100%;
-    min-height: 50vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed
@@ -4866,7 +4866,7 @@ a img {
     position: absolute;
     font-family: 'Rubik', sans-serif;
     width: 80%;
-    top: 5%;
+    top: 50%;
     left: 50%;
     margin: 0 auto;
     -webkit-transform: translate(-50%, -50%);
