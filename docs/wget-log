@@ -1,0 +1,20 @@
+--2024-08-22 20:46:44--  https://www.dropbox.com/scl/fi/xyjos81otmktdivnuu992/CV-19.pdf?rlkey=bbkzug2j04txf4hc334oy55ya
+Resolving www.dropbox.com... 162.125.11.18, 2620:100:6050:18::a27d:b12
+Connecting to www.dropbox.com|162.125.11.18|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://ucbc160816d40279913ac405ea86.dl.dropboxusercontent.com/cd/0/inline/CZL4yHn5VyeKNMLzdgnvA-Uc1lB4pXM4rQ7NiGJLHBKx8eMyW0f6M0MkbGPalkyxpF2yle6Z6Rz1N-nCIUvfKeES57ProsZIHprKFBq2wYK3DEmHKAV6Zn99ih677zBsgnlNGTsmGrx6WtFfyPtE14Vd/file# [following]
+--2024-08-22 20:46:44--  https://ucbc160816d40279913ac405ea86.dl.dropboxusercontent.com/cd/0/inline/CZL4yHn5VyeKNMLzdgnvA-Uc1lB4pXM4rQ7NiGJLHBKx8eMyW0f6M0MkbGPalkyxpF2yle6Z6Rz1N-nCIUvfKeES57ProsZIHprKFBq2wYK3DEmHKAV6Zn99ih677zBsgnlNGTsmGrx6WtFfyPtE14Vd/file
+Resolving ucbc160816d40279913ac405ea86.dl.dropboxusercontent.com... 162.125.11.15, 2620:100:6050:15::a27d:b0f
+Connecting to ucbc160816d40279913ac405ea86.dl.dropboxusercontent.com|162.125.11.15|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cd/0/inline2/CZL4Ej_9BptOEfjggzg6DiEYDuY4e48M76oxnEPpD9qrMucNZdfc0MQ92WPq76ihgWzdGJKtXeqH_-H8dSase_XX0u8k6Jxf1-CX3KmKFwdl6UlNtHzyMgtsYcq2NOVQGK4vjFZUGWO4XI9_n46zGy5T_zvHscovph42F_nrHkDWXdO0U-88jdtHf1J6aVDWM6YtgBCTpUFl6DLC5AMv9a-quMZ0IAvyPiwEjdo0St0UWlpKfjecMm_qWda_oSWMqbpGB9yAAt3Axu4qW4dh-WuKnymRV8its0Z9-I4iaJ5KVmZg1R_QJqb0Jnz7IHjl-rizuBd7B_FSsiF5ggjKAe_rfdsXtc1yMiofVhLhoeQNu2TAnIA4hLmTzDmfdC-LaVQ/file [following]
+--2024-08-22 20:46:45--  https://ucbc160816d40279913ac405ea86.dl.dropboxusercontent.com/cd/0/inline2/CZL4Ej_9BptOEfjggzg6DiEYDuY4e48M76oxnEPpD9qrMucNZdfc0MQ92WPq76ihgWzdGJKtXeqH_-H8dSase_XX0u8k6Jxf1-CX3KmKFwdl6UlNtHzyMgtsYcq2NOVQGK4vjFZUGWO4XI9_n46zGy5T_zvHscovph42F_nrHkDWXdO0U-88jdtHf1J6aVDWM6YtgBCTpUFl6DLC5AMv9a-quMZ0IAvyPiwEjdo0St0UWlpKfjecMm_qWda_oSWMqbpGB9yAAt3Axu4qW4dh-WuKnymRV8its0Z9-I4iaJ5KVmZg1R_QJqb0Jnz7IHjl-rizuBd7B_FSsiF5ggjKAe_rfdsXtc1yMiofVhLhoeQNu2TAnIA4hLmTzDmfdC-LaVQ/file
+Reusing existing connection to ucbc160816d40279913ac405ea86.dl.dropboxusercontent.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 190264 (186K) [application/pdf]
+Saving to: ‘CV-19.pdf?rlkey=bbkzug2j04txf4hc334oy55ya’
+
+CV-19.pdf?rlkey=bbkzug2j04txf4hc334oy55ya            0%[                                                                                                                 ]       0  --.-KB/s               CV-19.pdf?rlkey=bbkzug2j04txf4hc334oy55ya          100%[================================================================================================================>] 185.80K  --.-KB/s    in 0.07s   
+
+2024-08-22 20:46:45 (2.61 MB/s) - ‘CV-19.pdf?rlkey=bbkzug2j04txf4hc334oy55ya’ saved [190264/190264]
+
