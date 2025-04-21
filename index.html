@@ -48,7 +48,13 @@
 
 	<script>
 	window.onload = function () {
-		document.getElementById("myBtn").click();};
+	    var dots = document.getElementById("dots");
+	    var moreText = document.getElementById("more");
+	    var btnText = document.getElementById("myBtn");
+            dots.style.display = "inline";
+	    btnText.innerHTML = "Read more"; 
+	    moreText.style.display = "none";
+	};
 	</script>
 	      
         <div class="contents">
