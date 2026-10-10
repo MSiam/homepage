@@ -25,6 +25,11 @@
 
     <!-- Import CSS: Main Stylesheet -->
     <link rel="stylesheet" href="./assets/css/main.css" />
+<style>
+  #more {
+    display: none;
+  }
+</style>
   </head>
 
   <body>
@@ -46,17 +51,7 @@
         </picture>
         </div>
 
-	<script>
-	window.onload = function () {
-	    var dots = document.getElementById("dots");
-	    var moreText = document.getElementById("more");
-	    var btnText = document.getElementById("myBtn");
-            dots.style.display = "inline";
-	    btnText.innerHTML = "Read more"; 
-	    moreText.style.display = "none";
-	};
-	</script>
-	      
+      
         <div class="contents">
             <h2></h2>
             <h3 style="text-align:left;">Currently, in transition between positions</h3>
@@ -116,12 +111,12 @@ I am strongly against sexism and sexual harrasment at work! Collaborations, Gran
 	      <li> June 2024: I am WACV 2025 Area Chair.
 	      <li> May 2024: I acquired the NSERC Alliance International grant, thanks to NSERC.
 	      <li> April 2024: Happy to announce that I acquired the Discovery grant and launch supplements for my IVU Lab on "Learning pixel-level video understanding", postdoc and PhD students interested to apply reach out on my email.
+	    </ul>
+	    <div id="more">
+	      <ul>
 	      <li> March 2024: I am glad to announce that I am an <a href="https://www.cs.ubc.ca/people/mennatullah-siam">affiliate assistant professor</a> with University of British Columbia, Canada. 
 	      <li> March 2024: I am a supporting organizer in the first African Computer Vision Summer School, <a href="https://www.acvss.ai/past-editions/2024">ACVSS</a>, Nairobi, Kenya co-located in Microsoft Research (MARI).
 	      <li> February 2024: 1 Paper got accepted in CVPR 2024 on prompting pixel-level image understanding models, and our work on studying video understanding models from a neuroscience perspective is released on arxiv.
-	    </ul>
-	      <span id="dots">...</span><span id="more">
-	    <ul>
 	      <li> December 2023: I am co-organizing 3rd workshop on L3D-IVU in CVPR 2024.
 	      <li> I am an outstanding reviewer in <a href="https://iccv2023.thecvf.com/outstanding.reviewers-118.php"> ICCV 2023</a>.
 	      <li> July 2023: I started as an assistant professor in Ontario Tech University
@@ -137,23 +132,21 @@ I am strongly against sexism and sexual harrasment at work! Collaborations, Gran
               <li> July 2021: Officially Started my Postdoc in York University under supervision from Prof. Richard Wildes and Kostas Derpanis,
               <li> May 2021: I officially finished my PhD and graduated from University of Alberta convocation in Fall 2021, <a href="https://era.library.ualberta.ca/items/2bf2ba86-6201-4e76-b8b3-4b90b1fa3718"> Thesis</a>.
             </ul>
-	</span><br>
+	</div><br>
 	<button onclick="myFunction()" id="myBtn">Read more</button>
 	 <script>
 	function myFunction() {
-	  var dots = document.getElementById("dots");
 	  var moreText = document.getElementById("more");
 	  var btnText = document.getElementById("myBtn");
-	
-	  if (dots.style.display === "none") {
-	    dots.style.display = "inline";
-	    btnText.innerHTML = "Read more"; 
-	    moreText.style.display = "none";
-	  } else {
-	    dots.style.display = "none";
-	    btnText.innerHTML = "Read less"; 
-	    moreText.style.display = "inline";
-	  }
+	  var currentDisplay = window.getComputedStyle(moreText).display;
+ 	  
+       	  if (currentDisplay === "none") {
+       	     btnText.innerHTML = "Read less";
+       	     moreText.style.display = "block";
+       	  } else {
+       	     btnText.innerHTML = "Read more";
+       	     moreText.style.display = "none";
+       	  }	 	
 	}
 	</script>
         </div>

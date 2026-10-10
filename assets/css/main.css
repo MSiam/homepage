@@ -5119,6 +5119,48 @@ a img {
     color: #fff;
     transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
 }
+#myBtn {
+  background-color: #f0f7ff; /* Very soft, professional tinted blue background */
+  color: #0055cc; /* Deep, high-contrast academic blue text */
+  border: 1px solid #d0e4ff; /* Crisp, matching light blue border */
+  border-radius: 20px; /* Modern pill shape instead of a blocky box */
+  padding: 6px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 14px;
+}
+
+/* Add a clean, responsive arrow icon */
+#myBtn::after {
+  content: "→";
+  font-size: 14px;
+  transition: transform 0.25s ease;
+}
+
+/* Premium Hover State */
+#myBtn:hover {
+  background-color: #0066cc; /* Shifts to vibrant interactive blue */
+  color: #ffffff; /* Flips text to stark white */
+  border-color: #0066cc;
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.15); /* Soft, colored depth shadow */
+}
+
+/* The arrow micro-slides forward on hover */
+#myBtn:hover::after {
+  transform: translateX(3px);
+}
+
+/* Accessibility focus ring */
+#myBtn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.3);
+}
 
 .footer {
     background: #1488CC;
